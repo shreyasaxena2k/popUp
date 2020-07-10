@@ -20,6 +20,19 @@ body {
     position: fixed;
     z-index: 1;
     top: 0;
+    left: 0;
+    background-color: lightgrey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+  .rtsidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
     right: 0;
     background-color: lightgrey;
     overflow-x: hidden;
@@ -41,12 +54,14 @@ body {
     color: #f1f1f1;
   }
 
-  .sidebar .closebtn {
+   .closebtn {
     position: absolute;
     top: 0px;
     right: 22px;
     font-size: 36px;
     margin-left: 50px;
+    text-decoration: none;
+    
   }
 
   .openbtn {
