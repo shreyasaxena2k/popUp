@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+    <a class="navbar-brand" href="#" class="openbtn" onclick="openNav()"> ☰ CCBUL</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>                           
+             <li class=""><a href="platform.html">Platform</a></li> 
+			  <li class=""><a href="product.html">Products</a></li>
+			  <li class=""><a href="services.html">Services</a></li>
+			  <li class=""><a href="#">Infrastructure</a></li>
+			  <li class=""><a href="#">Industry</a></li>
+			  <li class=""><a href="shop.html">Shop</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="leftSidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="leftcloseNav()">×</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  
+  <div id="mySidebar" class="sidebar">
+    <div class="window">
+      <div class="window_name">
+        <span><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></span>
+        <div id="name"></div>
+      </div>
+      <hr>
+      <div class="window_abt">
+        <h2>ABOUT THE COMPANY</h2>
+        <div class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et sapiente animi asperiores amet
+          dolorem autem fugiat cum totam dignissimos vitae praesentium eos laboriosam qui, dolorum inventore molestias
+          rem ex veniam laudantium quos commodi atque. Eveniet eum eaque 
+        </div>
+        <a href="VIEW MORE"></a>
+      </div>
+      <hr>
+      <div class="window_service">
+        <h1>SERVICE DETAILS</h1>
+        <div class="service_type">
+          <div class="card">
+          <h4>Select the type of services</h4>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi error eaque, earum magni delectus cupiditate
+        </div>
+        <div class="card">
+          <h4>Type of company</h4>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi error eaque, earum magni delectus cupiditate
+      </div>
+        </div>
+        <hr>
+        <div class="provide">
+          <h1>ALSO PROVIDES</h1>
+          <ul>
+            <li>Import-Export</li>
+             <li>Food Licence</li>
+          </ul>
+        </div>
+      </div>
+      <button class=" btn btn-primary">ENQUIRE NOW</button>
+    </div>
+  </div>
+
+  <div id="container">
+    
+    <div id="main">
+      <button class="openbtn" id="name1" onclick="openNav1()">NAME 1</button>
+      <h2>Collapsed Sidebar</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt culpa tenetur harum autem reiciendis modi
+        dolorum at inventore repellendus provident?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+        magni.</p>
+    </div>
+    <div id="main1">
+      <button class="openbtn"id="name2" onclick="openNav2()">NAME 2</button>
+      <h2>Collapsed Sidebar</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt culpa tenetur harum autem reiciendis modi
+        dolorum at inventore repellendus provident?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+        quidem.</p>
+    </div>
+    <div id="main2">
+      <button class="openbtn" id="name3" onclick="openNav3()">NAME 3</button>
+      <h2>Collapsed Sidebar</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt culpa tenetur harum autem reiciendis modi
+        dolorum at inventore repellendus provident?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus,
+        quasi.</p>
+    </div>
+  </div>
+  <script>
+   
+
+    
+  </script>
+
+</body>
+
+</html>
